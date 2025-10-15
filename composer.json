@@ -1,0 +1,6 @@
+{
+  "name": "cintix/graphql-pitch-php",
+  "description": "A minimal reflection-based GraphQL runtime for PHP inspired by GrapqlPitch (C#).",
+  "autoload": { "psr-4": { "GraphQLPitch\\": "src/" } },
+  "require": { "php": ">=8.0" }
+}
