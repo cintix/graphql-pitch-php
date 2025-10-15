@@ -17,34 +17,7 @@ but to **demonstrate how little it actually takes** to implement a working Graph
 - Simple AST model for types and fields  
 
 Everything is implemented in ~400 lines of PHP.  
-No external dependencies — just PHP ≥ 8.0.
-
----
-
-## 🧩 Project Structure
-
-graphql-pitch-php/
-│
-├── src/
-│ ├── GraphType.php
-│ ├── GraphExecutor.php
-│ ├── GraphParser.php
-│ ├── GraphSchema.php
-│ ├── GraphTypeDefinition.php
-│ ├── GraphFieldDefinition.php
-│ ├── GraphArgumentDefinition.php
-│ └── SchemaGenerator.php
-│
-├── examples/
-│ ├── Query.php
-│ ├── Mutation.php
-│ ├── Customer.php
-│ └── index.php
-│
-└── composer.json
-
-
----
+No external dependencies — just PHP ≥ 8.0.---
 
 ## 🧠 Example
 
@@ -122,7 +95,7 @@ You can read the query, call matching methods, and build JSON — that’s it.
 Everything else (validation, SDL, resolvers) are optional layers.
 💡 Credits
 
-Original idea and design: Mix (Cintix)
+Original idea and design: Michael Martinsen (Cintix)
 C# prototype: GrapqlPitch
 
 
@@ -148,4 +121,4 @@ Schema introspection
     Lightweight CLI / server mode
 
     "GraphQL is not complicated — it’s just structured reflection."
-    — Mix, creator of GraphQL Pitch
+    — Michael Martinsen, creator of GraphQL Pitch
